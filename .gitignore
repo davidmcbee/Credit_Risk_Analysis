@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Source files
+credit_risk_ensemble_starter_code.ipynb
+credit_risk_resampling_starter_code.ipynb
+Module-17-Challenge-Resources.zip
+
 # C extensions
 *.so
 
