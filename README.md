@@ -7,7 +7,7 @@ Environment - Python in Jupyter notebooks
 Libraries - Numpy, Pandas, Pathlib, Collections, SciKit
 ML Models -  Sklearn, Imblearn, Random Over Sampler, SMOTE, Random Under Sampler, SMOTEENN, Logistics Regression, Balanced Random Forest Classifier, Easy Ensemble Classifier with the ADA Boost Classifier
 
-Data - The data used for this analysis comes from LendingClub, a peer-to-peer lending services company. The CSV file is available here (\Module-17-Challenge-Resources\LoanStats_2019Q1.csv). Loan status is the target variable and has one of two values; high risk or low risk. The original file has 86 columns, 85 of those will be used after they the data is set up for machine learning. This set will result in 95 independent variables. There are 115,675 original rows that, after data preparation, will result in 68,817 rows used for the analysis
+Data - The data used for this analysis comes from LendingClub, a peer-to-peer lending services company. The CSV file is available here (Module-17-Challenge-Resources\LoanStats_2019Q1.csv). Loan status is the target variable and has one of two values; high risk or low risk. The original file has 86 columns, 85 of those will be used after they the data is set up for machine learning. This set will result in 95 independent variables. There are 115,675 original rows that, after data preparation, will result in 68,817 rows used for the analysis
 
 ## Steps and Results
 ### The Pipeline
@@ -119,6 +119,7 @@ Sensitivity has also improved. It is 0.92. Out of 17,104 truly low risk indicato
 
 ## Summary
 In summary, the following 6 models, along with their balanced accuracy sores, precision and recall (sensitivity) were tried: Figure 16.
+
 ![](Module-17-Challenge-Resources/imgs/all_scores.png)
 Figure 16
 
