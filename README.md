@@ -118,12 +118,9 @@ The rounded balanced accuracy score is 0.93. Now, this is the best score.  Looki
 Sensitivity has also improved. It is 0.92. Out of 17,104 truly low risk indicators, the model picked 16,098 correctly as negative and only 8 incorrectly, false negatives. The f1 score has also improved. It is 0.18. Again, this model is more sensitive then it is precise but overall, it is a good fit and the best fit of any of the models.
 
 ## Summary
-In summary, the following 6 models, along with their balanced accuracy sores, were tried:
-1. Naive Random Oversampling - 0.67
-2. SMOTE Oversampling - 0.66
-3. Under sampling - 0.56
-4. Combination Over and Under Sampling - 0.68
-5. Balanced Random Forest Classifier - 0.79
-6. Easy Ensemble AdaBoost Classifier - 0.93
+In summary, the following 6 models, along with their balanced accuracy sores, precision and recall (sensitivity) were tried: Figure 16.
+![](Module-17-Challenge-Resources/imgs/all_scores.png)
+Figure 16
+
 Based on this analysis I recommend the Easy Ensemble AdaBoost Classifier. In regards to precision vs sensitivity, it is an assumption that precision is more important then sensitivity. It is important to lend as this is how the bank makes it's money. Thus, denying loans to a low risk person who was incorrectly classified as high risk is lost opportunity. Having said that, there is definitely a cost to loans that go bad. I do not have the information necessary to understand the cost of bad loans but I also recommend this be analyzed and compared to the lost opportunity cost of mis-classifying low risk loans as high risk.
 
